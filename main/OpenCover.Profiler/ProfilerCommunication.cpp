@@ -13,8 +13,8 @@
 #include <sstream>
 
 #define ONERROR_GOEXIT(hr) if (FAILED(hr)) goto Exit
-#define COMM_WAIT_SHORT 10000
-#define COMM_WAIT_LONG 60000
+#define COMM_WAIT_SHORT 60000
+#define COMM_WAIT_LONG 120000
 #define COMM_WAIT_VSHORT 3000
 
 ProfilerCommunication::ProfilerCommunication() 
